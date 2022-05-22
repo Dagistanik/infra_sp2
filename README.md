@@ -13,7 +13,7 @@ cd infra_sp2
 ```
 * Cоздать и активировать виртуальное окружение:
 ```python
-python -m venv env
+python -m venv venv
 ```
 ```python
 source venv/Scripts/activate

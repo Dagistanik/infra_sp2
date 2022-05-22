@@ -12,7 +12,6 @@ DEBUG = False
 ALLOWED_HOSTS = ['web']
 
 
-
 INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'django.contrib.admin',
@@ -60,7 +59,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 
-
 DATABASES = {
     'default': {
         # 'ENGINE': os.getenv('DB_ENGINE'),
@@ -71,7 +69,7 @@ DATABASES = {
         'HOST': os.getenv('DB_HOST'),
         'PORT': os.getenv('DB_PORT')
     }
-} 
+}
 
 
 # Password validation
